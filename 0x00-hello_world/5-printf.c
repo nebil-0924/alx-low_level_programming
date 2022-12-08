@@ -3,10 +3,13 @@
 /**
  * main - Entry point
  *
- *Return: Always 0 (success)
+ * description: print "with proper grammar"
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	printf("with proper grammer, but theoutcome is a piece of art,\n");
+	printf("with proper grammer, but the outcome is a piece of art,\n");
 	return (0);
 }
