@@ -1,45 +1,27 @@
-#include "stdio.h"
-
-
-
+#include "main.h"
 /**
+ * main 
  *
- *  * main - prints putchar
- *
- *   *
- *
- *    * Description: prints putchar
- *
- *     *
- *
- *      * Return:Always 0 (Success)
- *
- *       */
-
-
-
+ * return: always 0 (success)
+ * */
 int main(void)
-
 {
+	_putcahr('_');
+	_putcahr('p');
+	_putcahr('u');
+	_putcahr('t');
+	_putcahr('c');
+       	_putcahr('h');
+	_putcahr('a');
+	_putcahr('r');
+	_putcahr('\n');
 
-		char text[8] = "putchar";
-
-			int i = 0;
-
-
-
-				for (i = 0; i < 7; i++)
-
-						{
-
-									putchar(text[i]);
-
-										}
-
-					putchar('\n');
-
-
-
-						return (0);
-
+			return (0);
 }
+
+
+
+
+
+
+
