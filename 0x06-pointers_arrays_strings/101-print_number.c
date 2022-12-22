@@ -1,34 +1,21 @@
 #include "main.h"
-
 /**
- * print_number - This function prints an integer
- * @n: Integer to evaluate
- */
-
+* print_number - prints an integer
+*@n:integer to be printed
+*
+*/
 void print_number(int n)
 {
-	/* if n is divisible by 10 */
-	if (n / 10)
+	unsigned int num = n;
+
+	if (n < 0)
 	{
-		/* call function again and evaluate */
-		print_number(n / 10);
-		/* take second digit and store in n */
-		n %= 10;
-		/* if second digit negative */
-		if (n < 0)
-			/* make it positive */
-			n *= -1;
+		_putchar('-');
+		num = -num;
 	}
-	/* if n is NOT divisible by 10 */
-	else
-		/* and if n is negative */
-		if (n < 0)
-		{
-			/* print a minus sign */
-			_putchar('-');
-			/* and make n positive */
-			n *= -1;
-		}
-	/* print out n */
-	_putchar(n + '0');
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
 }
