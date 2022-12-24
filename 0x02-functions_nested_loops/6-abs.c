@@ -19,7 +19,8 @@ int main(void)
 {
 	int r;
 
-	r = -1;
+	r = _abs(-1);
 	_putchar(n);
+	_putchar('\n');
 	return (0);
 }
