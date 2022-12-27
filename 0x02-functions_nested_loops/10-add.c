@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * _add - entry point
+ * add - entry point
  *
- * _add: add two integer and return sum
- *
- * _add - Description:  add two integer and return sum
+ * add - Description:  add two integer and return sum
  *
  * @n1: integer 1
  *
@@ -12,7 +10,7 @@
  *
  * return: sum
  */
-int _add(int n1, int n2)
+int add(int n1, int n2)
 {
 	int sum;
 
