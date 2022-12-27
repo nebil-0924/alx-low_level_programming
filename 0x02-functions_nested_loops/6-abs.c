@@ -3,7 +3,7 @@
 /**
  *_abs - entry point
  *
- * @n: n is an integer
+ * @c: c is an integer
  *
  * Return: integer
  */
@@ -12,10 +12,10 @@ int _abs(int c)
 	if (c < 0)
 	{
 		int abs_val;
-		
-		abs_val = c * (-1);;;
+
+		abs_val = c * (-1);
 		return (abs_val);
 	}
-	return(c);
+	return (c);
 }
 
