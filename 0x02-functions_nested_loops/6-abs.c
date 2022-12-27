@@ -7,19 +7,15 @@
  *
  * Return: integer
  */
-int _abs(int n)
+int _abs(int c)
 {
-	if (n < 0)
+	if (c < 0)
 	{
-		n = (-1) * n;
+		int abs_val;
+		
+		abs_val = c * (-1);;;
+		return (abs_val);
 	}
-		_putchar(n);
+	return(c);
 }
-int main(void)
-{
-	int r;
 
-	r = _abs(-1);
-	_putchar(r);
-	_putchar('\n');
-}
