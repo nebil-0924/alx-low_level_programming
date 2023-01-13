@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *print_most_numbers - function that print all numbers from zero to nine except two and four
+ *print_most_numbers - print numbers except two and four
  *
  *Return: returns nothing
-*/
+ */
 void print_most_numbers(void)
 {
 	int num = 48;
