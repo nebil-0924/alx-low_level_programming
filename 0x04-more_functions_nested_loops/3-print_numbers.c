@@ -6,10 +6,9 @@
  */
 void print_number(void)
 {
-	int a = 0;
-	while (a < 10)
+	for (int number = 48; int number <= 57; int number++)
 	{
-		_putchar(a);
-		a++;
+		_putchar(number);
 	}
+	_putchar(10);
 }
