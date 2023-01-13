@@ -1,23 +1,19 @@
 #include "main.h"
 /**
- * more_numbers - prints numbers ten times from zero to fortinee 
+ * more_numbers - print numbers to14 
  *
  * Return: returns nothing
  */
 void more_numbers(void)
 {
-	int nume = 0;
-	int num;
-	while (nume < 10)
+	int number1, number2;
+	for (number1 = 1; number1 <= 10; number++)
 	{
-		num = 0;
-		while (num < 15)
+		for (number2 = 0; number2 <= 14; number2++)
 		{
-			_putchar(num);
-			num++;
+			_putchar(number2);
 		}
 		_putchar('\n');
-		nume++;
 	}
-	_putchar(10);
+	_putchar('\n');
 }
